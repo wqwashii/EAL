@@ -11,7 +11,10 @@ y = float(input("y değerini giriniz: "))
 if z == "/" and y == 0:
     print(f"{x} / {y} = Tanımsız")
 elif x == 8828 and y == 8828 and z == "8828":
-    print("EAL ROBOTİK")
+    print("""
+    -----------
+    EAL ROBOTİK
+    -----------""")
 elif z == "+":
     print(f"{x} + {y} = {x + y}")
 elif z == "-":
